@@ -22,5 +22,4 @@ public class Task3 {
 		System.out.println("平均(3で割った時):"+y);
 		System.out.println("平均(3.0で割った時):"+z);
 	}
-
 }
