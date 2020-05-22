@@ -12,9 +12,9 @@ public class Task1 {
         int data = sc.nextInt();
         
         if(data>=10)
-        System.out.println("値:"+data);
+           System.out.println("値:"+data);
         if(data<10)
-        System.out.println("値:"+data*10);
+           System.out.println("値:"+data*10);
         sc.close();
 	}
 
