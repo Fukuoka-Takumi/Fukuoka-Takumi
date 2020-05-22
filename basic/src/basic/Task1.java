@@ -5,7 +5,5 @@ public class Task1 {
 		System.out.println("初めての課題");
 		
 		System.out.println("攻略の道");
-		
-
 	}
 }
