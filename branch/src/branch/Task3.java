@@ -10,12 +10,15 @@ public class Task3 {
 		
 		int data = sc.nextInt();
 		
-		if(data>0)
+		if(data>0) {
 		 System.out.println("入力された数字は正の数です。");
-		if(data<0)
+		}
+		if(data<0) {
 		 System.out.println("入力された数字は負の数です。");
-		if(data == 0)
+		}
+		if(data == 0) {
 		 System.out.println("入力された数字は0です。");
+		}
 		sc.close();
 	}
 }
