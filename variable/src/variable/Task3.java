@@ -13,7 +13,7 @@ public class Task3 {
 		System.out.println("変換後");
 		long x =(long)intNum;
 		System.out.println(x);
-	    float y =(float)doubleNum;
+		float y =(float)doubleNum;
 		System.out.println(y);
 		double z =(double)longNum;
 		System.out.println(z);
