@@ -6,9 +6,9 @@ public class Task5 {
 
 	public static void main(String[] args) {
 
-		String a =("ノートPCの値段:");
+		String a = "ノートPCの値段:";
 		final int b = 89800;
-		char c =('円');
+		char c = '円';
 		System.out.println(a + b + c);
 
 		Scanner sc = new Scanner(System.in);
