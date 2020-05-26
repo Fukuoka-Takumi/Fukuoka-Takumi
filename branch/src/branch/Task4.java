@@ -11,17 +11,17 @@ public class Task4 {
 		int numB = sc.nextInt();
 		int c = 0;
 
-		if (numA > 0 && numB > 0 && c == numA % numB) {
+		if (numA > c && numB > c && c == numA % numB) {
 			System.out.println("numA:" + numA);
 			System.out.println("numB:" + numB);
 			System.out.println("numBはrumAの約数です。");
 		}
-		if (numA > 0 && numB > 0 && c != numA % numB) {
+		else if (numA > c && numB > c && c != numA % numB) {
 			System.out.println("numA:" + numA);
 			System.out.println("numB:" + numB);
 			System.out.println("numBはrumAの約数ではありません。");
 		}
-		if (numA > numB && c >= numB) {
+		else {
 			System.out.println("numA:" + numA);
 			System.out.println("numB:" + numB);
 			System.out.println("正の整数を入力してください。");

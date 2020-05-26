@@ -10,10 +10,10 @@ public class Task3 {
 		if(data > 0) {
 			System.out.println("入力された数字は正の数です。");
 		}
-		if(data < 0) {
+		else if(data < 0) {
 			System.out.println("入力された数字は負の数です。");
 		}
-		if(data == 0) {
+		else {
 			System.out.println("入力された数字は0です。");
 		}
 		sc.close();

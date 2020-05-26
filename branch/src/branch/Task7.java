@@ -23,7 +23,7 @@ public class Task7 {
 			System.out.println("午前診療と午後診療があります");
 			break;
 		case "土曜":
-			System.out.println(day +("は午前療法のみです"));
+			System.out.println(day +("は午前診療のみです"));
 			break;
 		default:
 			day = "入力を確認してください";

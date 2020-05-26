@@ -12,8 +12,7 @@ public class Task2 {
 
 		if(data >= 10) {
 			System.out.println("値:" + data);
-		}
-		if(data < 10) {
+		}else if(data < 10) {
 			System.out.println("値:0" + data);
 		}
 		sc.close();
