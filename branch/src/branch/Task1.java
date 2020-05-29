@@ -10,8 +10,11 @@ public class Task1 {
 		System.out.println("10以上の数字を入力してください");
 		int data = sc.nextInt();
 
-		if(data >= 10)System.out.println("値:" + data);
-		if(data < 10) System.out.println("値:" + data * 10);
+		if(data >= 10) {
+			System.out.println("値:" + data);
+		}if(data < 10){
+			System.out.println("値:" + data * 10);
+		}
 		sc.close();
 	}
 }
