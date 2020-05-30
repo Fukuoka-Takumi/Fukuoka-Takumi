@@ -12,7 +12,7 @@ public class Task4 {
 		int numB = sc.nextInt();
 		int c = 0;
 
-		if (numA <= c) {
+		if (numA <= c || numB <= c) {
 			System.out.println("正の整数を入力してください。");
 		}
 		else if (c == numA % numB) {
