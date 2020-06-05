@@ -16,13 +16,13 @@ public class Task3 {
 		System.out.println(decimal);
 	}
 	public static String add(String moji1, String moji2) {
-		return moji1 + moji2;
+		return moji1 + moji2;//6line addを足すだけ処理＋上に戻す
 	}
 	public static int add(int num1, int num2) {
-		return num1 + num2;
+		return num1 + num2;//11line addを足す
 	}
 	public static double add(double num1, double num2) {
-		return num1 + num2;
+		return num1 + num2;//15line addをたす
 	}
 
 }
