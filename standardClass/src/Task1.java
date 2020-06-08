@@ -9,5 +9,4 @@ public class Task1 {
 		System.out.println("変換前: " + str1);
 		System.out.println("変換後: " + upper_str1);
 	}
-
 }
