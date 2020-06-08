@@ -2,9 +2,9 @@
 public class Person {
 	//属性
 	//名前
-	String name = "福岡 拓実";
+	String name ="";
 	//年齢
-	int age = 22;
+	int age = 0;
 
 	public void myProfile() {
 		System.out.println("私の名前は" + this.name +  "です。");
