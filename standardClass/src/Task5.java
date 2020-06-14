@@ -7,7 +7,7 @@ public class Task5 {
 		int neko = 0;
 		int nezu = 0;
 		for(String trial : array) {
-			if (trial.equals("cat")) {
+			if ("cat".equals(trial)) {
 				neko++;
 			}else {
 				nezu++;
