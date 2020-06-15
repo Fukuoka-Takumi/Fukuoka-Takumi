@@ -1,21 +1,21 @@
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
+import java.util.Date;
 public class Task7 {
 	public static void main(String[] args) {
-		Calendar cal = Calendar.getInstance();
-		System.out.print("現在日時: " + cal.get(Calendar.YEAR) + "年");
-		System.out.print(cal.get(Calendar.MONTH) + "月");
-		System.out.println(cal.get(Calendar.DATE) + "日");
+		Date now = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
+		System.out.println("現在時刻: " + sdf.format(now));
 		
+		Calendar cal =Calendar.getInstance();
+		cal.setTime(now);
 		cal.add(Calendar.DATE, 7);
-		System.out.print("１週間後: " + cal.get(Calendar.YEAR) + "年");
-		System.out.print(cal.get(Calendar.MONTH) + "月");
-		System.out.println(cal.get(Calendar.DATE) + "日");
+		Date d1 = cal.getTime();
+		System.out.println("１週間後: " + sdf.format(d1));
 		
-		cal.set(2021,5,12);
-		System.out.print("１年後  : " + cal.get(Calendar.YEAR) + "年");
-		System.out.print(cal.get(Calendar.MONTH) + "月");
-		System.out.print(cal.get(Calendar.DATE) + "日");
+		cal.set(2021,5,15);
+		Date d2 = cal.getTime();
+		System.out.print("１年後  : " + sdf.format(d2));
 		String[] week = new String[7];
 		week[0] = "日";
 		week[1] = "月";
