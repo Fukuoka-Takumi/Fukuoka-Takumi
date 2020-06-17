@@ -12,8 +12,8 @@ public class Task7 {
 		Date d1 = cal.getTime();
 		System.out.println("１週間後: " + sdf.format(d1));
 		
-		cal.set(2021,5,16);
+		cal.set(2021,5,17);
 		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy年MM月dd日(E)");
 		System.out.println("１年後　: " + sdf2.format(cal.getTime())); 
-}
+	}
 }
