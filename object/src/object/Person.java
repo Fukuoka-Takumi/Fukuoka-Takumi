@@ -1,7 +1,8 @@
+package object;
 
 public class Person {
-	String name;
-	int age;
+	private String name; //カプセル化
+	private int age;
 	static int wallet;
 
 	//引数なし 引数ありのコンストラクト
