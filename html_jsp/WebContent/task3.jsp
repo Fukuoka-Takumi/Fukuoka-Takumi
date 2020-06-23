@@ -12,7 +12,7 @@
 <title>JSP KADAI</title>
 </head>
 <body>
-	<h1>訪問回数: <%= count++ %></h1>
-	<p><% out.print(sdf.format(now)); %><p>
+	<h1>訪問回数: <%= count++ %></h1> <%--回数のカウント1ずつ増える --%>
+	<p><% out.print(sdf.format(now)); %><p> <%--9行目を表示 --%>
 </body>
 </html>

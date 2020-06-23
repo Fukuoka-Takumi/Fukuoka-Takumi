@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>JSP KADAI</title>
 </head>
 <body>
-<h1>Hello JSP</h1>
-<h2>Hello JSP</h2>
-<h3>Hello JSP</h3>
-<% out.print("Hello JSP"); %>
+<h1>Hello JSP</h1> <%--h1タグの表示 --%>
+<h2>Hello JSP</h2> <%--h2タグの表示 --%>
+<h3>Hello JSP</h3> <%--h3タグの表示 --%>
+<% out.print("Hello JSP"); %> <%--printメソッドでの表示 --%>
 </body>
 </html>
