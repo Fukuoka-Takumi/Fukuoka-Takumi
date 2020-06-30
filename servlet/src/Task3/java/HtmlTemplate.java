@@ -23,14 +23,9 @@ public class HtmlTemplate extends HttpServlet {
 		out.println("<title>ServletTask</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("<p>↓占いの結果↓<p>");
-		out.println("</body>");
-		out.println("</html>");
 	}
 	public static String amida;
 	public static void footer(PrintWriter out) {
-		out.println("<html>");
-		out.println("<body>");
 		Random rnd = new Random();
 		String[] oracle = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
 		for(int i = 0; i <= oracle.length; i++) {
