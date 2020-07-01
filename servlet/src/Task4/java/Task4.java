@@ -2,6 +2,7 @@ package Task4.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Random;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -34,6 +35,15 @@ public class Task4 extends HttpServlet {
 		HtmlTemplate.header(out);
 		out.println("<p>↓占い結果↓</p>");
 		HtmlTemplate.footer(out);
+		String amida = null;
+			Random rnd = new Random();
+			String[] oracle = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
+			for(int i = 0; i <= oracle.length; i++) {
+				amida = oracle[rnd.nextInt(6)];
+			}
+			out.println("<h1>");
+			out.println(amida);
+			out.println("<h1>");
 		
 	}
 

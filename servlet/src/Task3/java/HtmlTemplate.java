@@ -2,7 +2,6 @@ package Task3.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Random;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -24,16 +23,7 @@ public class HtmlTemplate extends HttpServlet {
 		out.println("</head>");
 		out.println("<body>");
 	}
-	public static String amida;
 	public static void footer(PrintWriter out) {
-		Random rnd = new Random();
-		String[] oracle = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
-		for(int i = 0; i <= oracle.length; i++) {
-			amida = oracle[rnd.nextInt(6)];
-		}
-		out.println("<h1>");
-		out.println(amida);
-		out.println("<h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
