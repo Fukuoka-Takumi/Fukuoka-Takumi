@@ -36,15 +36,14 @@ public class Task4 extends HttpServlet {
 		out.println("<p>↓占い結果↓</p>");
 		HtmlTemplate.footer(out);
 		String amida = null;
-			Random rnd = new Random();
-			String[] oracle = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
-			for(int i = 0; i <= oracle.length; i++) {
-				amida = oracle[rnd.nextInt(6)];
-			}
-			out.println("<h1>");
-			out.println(amida);
-			out.println("<h1>");
-		
+		Random rnd = new Random();
+		String[] oracle = new String[] {"大吉","中吉","小吉","末吉","凶","大凶"};
+		for(int i = 0; i <= oracle.length; i++) {
+			amida = oracle[rnd.nextInt(6)];
+		}
+		out.println("<h1>");
+		out.println(amida);
+		out.println("<h1>");
 	}
 
 	/**
